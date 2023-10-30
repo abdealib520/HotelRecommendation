@@ -3,6 +3,10 @@ import pandas as pd
 import ast
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('omw-1.4.1')
 stop_words = set(stopwords.words('english'))
 from nltk.stem import WordNetLemmatizer
 wordnet_lemmatizer = WordNetLemmatizer()
