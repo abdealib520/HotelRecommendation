@@ -7,6 +7,7 @@ import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('omw-1.4')
+nltk.download('wordnet')
 stop_words = set(stopwords.words('english'))
 from nltk.stem import WordNetLemmatizer
 wordnet_lemmatizer = WordNetLemmatizer()
